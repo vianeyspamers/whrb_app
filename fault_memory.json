@@ -1,0 +1,9 @@
+[
+    {
+        "name": "Temperature low",
+        "variable": "Gas_In_Temp",
+        "operator": "<",
+        "threshold": 100.0,
+        "solution": "Increase LP steam"
+    }
+]
