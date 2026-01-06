@@ -5,5 +5,12 @@
         "operator": "<",
         "threshold": 100.0,
         "solution": "Increase LP steam"
+    },
+    {
+        "name": "Water temp too low",
+        "variable": "Water_In_Temp",
+        "operator": "<",
+        "threshold": 1000.0,
+        "solution": "Increase temp"
     }
 ]
